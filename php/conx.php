@@ -1,11 +1,11 @@
 <?php
 
 $dsn='mysql:dbname=edf;host=localhost';
-//login
+
 $login='root';
-// Mot de passe
+
 $motDePasse='';
-// Connexion au serveur MySQL
+
 try{
     $cnx = new PDO($dsn, $login, $motDePasse,
             array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,

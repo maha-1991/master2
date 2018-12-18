@@ -9,6 +9,7 @@
     <script src="main.js"></script>
 </head>
 <body>
-    
+<?php
+    include 'conx.php';
 </body>
 </html>
