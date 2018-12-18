@@ -11,5 +11,8 @@
 <body>
 <?php
     include 'conx.php';
+    $sql = $cnx->prepare("select identifiant,nom,prenom,ancienReleve,dernierReleve,idcontroleur from client where idcontroleur ='" .$_GET['contr']."'"); 
+    $sql->execute();
+    
 </body>
 </html>

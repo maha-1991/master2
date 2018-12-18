@@ -18,7 +18,7 @@
         echo"<tr>";
         echo"<td>".$ligne['nom']."</td>";
         echo"<td>".$ligne['prenom']."</td>";
-        echo"<td><a href= 'p1.php?contr= ".$ligne['id']."'> Tous les clients </a></td>";
+        echo"<td><a href= 'p1.php?&contr= ".$ligne['id']."&nm= ".$ligne['nom']."&pr= ".$ligne['prenom']."'> Tous les clients </a></td>";
         echo"</tr>";
     }
     echo"</table>";
